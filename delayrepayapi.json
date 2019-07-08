@@ -1,0 +1,284 @@
+{
+    "operators":{
+        "all": [
+            {
+                "operator_name": "Arriva Trains Wales",
+                "atoc_code": "AW",
+                "website": "https://www.arriva.co.uk/countries/uk/arriva-uk-trains",
+                "delay_repay_link": "https://tfwrail.wales/delay-compensation",
+                "min_delay": 15,
+                "additional_info": null
+            },
+            {
+                "operator_name": "C2C",
+                "atoc_code": "CC",
+                "website": "https://www.c2c-online.co.uk/",
+                "delay_repay_link": "https://www.c2c-online.co.uk/help-feedback/delay-repay/",
+                "min_delay": 15,
+                "additional_info": null
+            },
+            {
+                "operator_name": "Caledonian Sleeper",
+                "atoc_code": "CS",
+                "website": "https://www.sleeper.scot/",
+                "delay_repay_link": "https://www.sleeper.scot/delay-repay-form/",
+                "min_delay": 30,
+                "additional_info": null
+            },
+            {
+                "operator_name": "Chiltern Railways",
+                "atoc_code": "CH",
+                "website": "https://www.chilternrailways.co.uk/",
+                "delay_repay_link": "https://www.chilternrailways.co.uk/compensation",
+                "min_delay": 30
+            },
+            {
+                "operator_name": "CrossCountry Trains",
+                "atoc_code": "XC",
+                "website": "https://www.crosscountrytrains.co.uk/",
+                "delay_repay_link": "https://www.crosscountrytrains.co.uk/customer-service/contact-us/delay-repay",
+                "min_delay": 30,
+                "additional_info": null
+            },
+            {
+                "operator_name": "East Midlands Trains",
+                "atoc_code": "EM",
+                "website": "https://www.eastmidlandstrains.co.uk/",
+                "delay_repay_link": "https://www.eastmidlandstrains.co.uk/information/Delay-Repay/",
+                "min_delay": 30,
+                "additional_info": null
+            },
+
+            {
+                "operator_name": "East Midlands Trains",
+                "atoc_code": "EM",
+                "website": "https://www.eastmidlandstrains.co.uk/",
+                "delay_repay_link": "https://www.eastmidlandstrains.co.uk/information/Delay-Repay/",
+                "min_delay": 30
+            },
+            {
+                "operator_name": "Eurostar",
+                "atoc_code": "ES",
+                "website": "https://www.eurostar.com/",
+                "delay_repay_link": "https://www.eurostar.com/us-en/travel-info/service-information/claiming-compensation",
+                "min_delay": 60,
+                "additional_info": "Eurostar do not issue cash refunds"
+            },
+            {
+                "operator_name": "Gatwick Express",
+                "atoc_code": "GX",
+                "website": "https://www.gatwickexpress.com/",
+                "delay_repay_link": "https://www.gatwickexpress.com/help-and-support/journey-problems/delay-repay-compensation",
+                "min_delay": 15,
+                "additional_info": null
+            },
+            {
+                "operator_name": "Grand Central Railway",
+                "atoc_code": "GC",
+                "website": "https://www.grandcentralrail.com/",
+                "delay_repay_link": "https://www.grandcentralrail.com/help/refunds-and-compensation/",
+                "min_delay": 60,
+                "additional_info": null
+            },
+            {
+                "operator_name": "Great Northern",
+                "atoc_code": "GN",
+                "website": "https://www.greatnorthernrail.com/",
+                "delay_repay_link": "https://www.greatnorthernrail.com/help-and-support/journey-problems/delay-repay-compensation",
+                "min_delay": 15,
+                "additional_info": null
+            },
+            {
+                "operator_name": "Great Western Railway",
+                "atoc_code": "GW",
+                "website": "https://www.gwr.com/",
+                "delay_repay_link": "https://www.gwr.com/help-and-support/refunds-and-compensation/delay-repay",
+                "min_delay": 15,
+                "additional_info": null
+            },
+            {
+                "operator_name": "Greater Anglia",
+                "atoc_code": "LE",
+                "website": "https://www.greateranglia.co.uk/",
+                "delay_repay_link": "https://www.greateranglia.co.uk/about-us/our-performance/delay-repay",
+                "min_delay": 15,
+                "additional_info": null
+            },
+            {
+                "operator_name": "Heathrow Connect",
+                "atoc_code": "HC",
+                "website": "https://www.gwr.com/",
+                "delay_repay_link": "https://www.gwr.com/help-and-support/refunds-and-compensation/delay-repay",
+                "min_delay": 15,
+                "additional_info": "Heathrow Connect are owned by GWR, You can make a compensation claim through the GWR website"
+            },
+            {
+                "operator_name": "Heathrow Express",
+                "atoc_code": "HX",
+                "website": "https://www.heathrowexpress.com/",
+                "delay_repay_link": "https://www.heathrowexpress.com/faqs/ticket-faqs#c79ff1d8-0b42-6265-b24c-ff00002d9a96",
+                "min_delay": 15,
+                "additional_info": null
+            },
+            {
+                "operator_name": "Hull Trains",
+                "atoc_code": "HT",
+                "website": "https://www.hulltrains.co.uk",
+                "delay_repay_link": "https://www.hulltrains.co.uk/support-and-contact/delay-compensation",
+                "min_delay": 30,
+                "additional_info": null
+            }, 
+            {
+                "operator_name": "Island Line",
+                "atoc_code": "IL",
+                "website": "https://www.southwesternrailway.com/destinations-and-offers/island-line",
+                "delay_repay_link": "https://www.southwesternrailway.com/contact-and-help/refunds-and-compensation/delay-repay",
+                "min_delay": 15,
+                "additional_info": null
+            },
+            {
+                "operator_name": "London Northwestern",
+                "atoc_code": "LN",
+                "website": "https://www.londonnorthwesternrailway.co.uk/",
+                "delay_repay_link": "https://www.londonnorthwesternrailway.co.uk/about-us/delay-repay",
+                "min_delay": 15,
+                "additional_info": null
+            }, 
+            {
+                "operator_name": "London Overground",
+                "atoc_code": "LO",
+                "website": "https://tfl.gov.uk/",
+                "delay_repay_link": "https://tfl.gov.uk/fares/refunds-and-replacements/overground-and-tfl-rail-delays",
+                "min_delay": 30,
+                "additional_info": null
+            },
+            {
+                "operator_name": "London Underground",
+                "atoc_code": "LT",
+                "website": "https://tfl.gov.uk/",
+                "delay_repay_link": "https://tfl.gov.uk/fares/refunds-and-replacements/tube-and-dlr-delays",
+                "min_delay": 15
+            },
+            {
+                "operator_name": "London Underground",
+                "atoc_code": "LT",
+                "website": "https://tfl.gov.uk/",
+                "delay_repay_link": "https://tfl.gov.uk/fares/refunds-and-replacements/tube-and-dlr-delays",
+                "min_delay": 15,
+                "additional_info": null
+            }, 
+            {
+                "operator_name": "Merseyrail",
+                "atoc_code": "ME",
+                "website": "https://www.merseyrail.org/",
+                "delay_repay_link": "https://www.merseyrail.org/tickets-passes/refunds.aspx",
+                "min_delay": 30,
+                "additional_info": null
+            },  
+            {
+                "operator_name": "Northern Rail",
+                "atoc_code": "NR",
+                "website": "https://www.northernrailway.co.uk/",
+                "delay_repay_link": "https://www.northernrailway.co.uk/corporate/compensation-information",
+                "min_delay": 15,
+                "additional_info": null
+            }, 
+            {
+                "operator_name": "Scotrail",
+                "atoc_code": "SR",
+                "website": "https://www.northernrailway.co.uk/",
+                "delay_repay_link": "https://www.scotrail.co.uk/plan-your-journey/our-delay-repay-guarantee",
+                "min_delay": 30
+            },  
+            {
+                "operator_name": "South Western Railway",
+                "atoc_code": "SW",
+                "website": "https://southwesternrailway.com/",
+                "delay_repay_link": "https://delayrepay.southwesternrailway.com/",
+                "min_delay": 15,
+                "additional_info": null
+            },
+            {
+                "operator_name": "Southeastern",
+                "atoc_code": "SE",
+                "website": "https://www.southeasternrailway.co.uk/",
+                "delay_repay_link": "https://www.southeasternrailway.co.uk/compensation",
+                "min_delay": 30,
+                "additional_info": null
+            },  
+            {
+                "operator_name": "Southern Rail",
+                "atoc_code": "SN",
+                "website": "https://www.southernrailway.com",
+                "delay_repay_link": "https://www.southernrailway.com/help-and-support/journey-problems/delay-repay-compensation",
+                "min_delay": 15,
+                "additional_info": null
+            }, 
+            {
+                "operator_name": "Stanstead Express",
+                "atoc_code": "SX",
+                "website": "https://www.stanstedexpress.com/",
+                "delay_repay_link": "https://www.stanstedexpress.com/about-us/contact-us/refunds",
+                "min_delay": 15,
+                "additional_info": null
+            },
+            {
+                "operator_name": "Stanstead Express",
+                "atoc_code": "SX",
+                "website": "https://www.stanstedexpress.com/",
+                "delay_repay_link": "https://www.stanstedexpress.com/about-us/contact-us/refunds",
+                "min_delay": 15,
+                "additional_info": "Stanstead express may charge a £10 'administration fee' if you submit a complaint."
+            },
+            {
+                "operator_name": "TfL Rail",
+                "atoc_code": "XR",
+                "website": "https://tfl.gov.uk/",
+                "delay_repay_link": "https://tfl.gov.uk/fares/refunds-and-replacements/overground-and-tfl-rail-delays",
+                "min_delay": 30,
+                "additional_info": null
+            },
+            {
+                "operator_name": "Thameslink",
+                "atoc_code": "TL",
+                "website": "https://www.thameslinkrailway.com/",
+                "delay_repay_link": "https://www.thameslinkrailway.com/help-and-support/journey-problems/delay-repay",
+                "min_delay": 15,
+                "additional_info": null
+            }, 
+            {
+                "operator_name": "TransPenine Express",
+                "atoc_code": "TP",
+                "website": "https://www.tpexpress.co.uk",
+                "delay_repay_link": "https://www.tpexpress.co.uk/help/delay-repay-compensation",
+                "min_delay": 30,
+                "additional_info": null
+            }, 
+            {
+                "operator_name": "Virgin Trains",
+                "atoc_code": "VT",
+                "website": "https://www.virgintrains.co.uk/",
+                "delay_repay_link": "https://www.virgintrains.co.uk/delayrepay",
+                "min_delay": 30,
+                "additional_info": null
+            }, 
+            {
+                "operator_name": "LNER",
+                "atoc_code": "GR",
+                "website": "https://www.lner.co.uk",
+                "delay_repay_link": "https://www.lner.co.uk/customer-service/refunds/delay-repay/",
+                "min_delay": 30,
+                "additional_info": null
+            }, 
+            {
+                "operator_name": "West Midlands Railway",
+                "atoc_code": "WM",
+                "website": "https://www.westmidlandsrailway.co.uk/",
+                "delay_repay_link": "https://www.westmidlandsrailway.co.uk/about-us/delay-repay",
+                "min_delay": 15,
+                "additional_info": null
+            } 
+
+        ]
+    }
+}

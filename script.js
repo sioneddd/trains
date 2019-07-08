@@ -57,7 +57,7 @@ $(document).ready(function(){
           if(item[count].status == 'LATE'){
             
             $.ajax({
-         url: "https://api.myjson.com/bins/9fcj3",
+         url: "delayrepayapi.json",
          type: 'GET',
          success: function(data){
            var x = 0;
