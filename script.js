@@ -3,6 +3,14 @@ $(document).ready(function(){
   var fromStation = "";
   var toStation = "";
   var reqUrl = "";
+
+  var op1 = [];
+        var op2 = [];
+        var minDelay = [];
+  
+        var operatorName = [];
+        var website = [];
+        
   
   
   $('#journey').submit(function(){
@@ -36,12 +44,6 @@ $(document).ready(function(){
         var delayedBy = timeToMins(db);
         
         
-        var op1 = "";
-        var op2 = "";
-        var minDelay = 0;
-  
-        var operatorName = "";
-        var website = "";
         
         function timeToMins(millis) {
           var minutes = Math.floor(millis / 60000);
@@ -49,38 +51,43 @@ $(document).ready(function(){
            return minutes;
         };
         
-        var status = item[count].status;
-        op1 = item[count].operator;
+        //var status = item[count].status;
+        op1.push(item[count].operator);
          
-          
+          var status = 'LATE';
         
-          if(item[count].status == 'LATE'){
+          if(status == 'LATE'){
             
+            
+            
+            $('#trains').append("<h1> <div class-'train' id='train"+ count + "'> This train was due at "+ startTime + " and is delayed until "+ endTime + " and is "+delayedBy+" minutes late.<br> " + cstr +"</h1></div><br>");
             $.ajax({
-         url: "delayrepayapi.json",
-         type: 'GET',
-         success: function(data){
-           var x = 0;
-           var it = data.operators.all;
-           
-          
-           
-           $.each(it, function(){
-             //console.log(it[x].atoc_code + " op1:" + op1);
-             if(op1 == it[x].atoc_code){
-               op2 = it[x].atoc_code;
-             minDelay = it[x].min_delay;
-               operatorName = it[x].operator_name;
-               website = it[x].delay_repay_link;
-             };
-             console.log("op1: " + op1 + " op2:" + op2 + " delay:" + minDelay + " name: " + operatorName);
-             x++;
-             
-           })
-         }
-       })
-            
-            $('#trains').append("<h1> This train was due at "+ startTime + " and is delayed until "+ endTime + " and is "+delayedBy+" minutes late.<br> " + cstr +"</h1><br><p>This train is a " + operatorName + " service. You can claim compensation after being delayed " + minDelay + " minutes. The website to make a claim is " + website);
+              url: "delayrepayapi.json",
+              type: 'GET',
+              success: function(data){
+                var x = 0;
+                var it = data.operators.all;
+                var c = 0;
+                var xst = x.toString();
+                var vst = '#train' + xst;
+
+                console.log("op1: " + op1 + " op2:" + op2 + " delay:" + minDelay + " name: " + operatorName);
+                
+                $.each(it, function(){
+                  if(op1[x] == it[x].atoc_code){
+                  op2.push(it[x].atoc_code);
+                  minDelay.push(it[x].min_delay);
+                    operatorName.push(it[x].operator_name);
+                    website.push(it[x].delay_repay_link);
+                    c++;
+                  };
+
+                  console.log(c);
+                  x++;
+                })
+                $(vst).append("<p>This train is a " + op1[c] + " service. You can claim compensation after being delayed " + minDelay[c] + " minutes. The website to make a claim is " + website[c] + "</p>");
+              }
+            })
         };
         count++;  
         
